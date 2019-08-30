@@ -2,18 +2,24 @@
 
 Description: Simple Cordova number plate extractor based off two existing plugins. Add a reference to the main .js file in your html page and you can use the functions directly.
 
+## Files
+
+ - /www/nPlate.js -> Main file
+ - /www/index.html -> Test File
+ - /www/index.js  -> Test Script
+
 ## Set up
 To integrate with an existing project:
 
  - Install required plugins
 	 - `cordova add plugin cordova-plugin-mobile-ocr --save`
 	 - `cordova add plugin cordova-plugin-document-scanner --save`
+	 - `cordova add plugin cordova-plugin-file --save`
+	 - `cordova add plugin cordova-plugin-whitelist --save`
  - Copy /www/js/nPlate.js to your project
  - Add a script reference to the html page where you will use this plugin
 	 - `<script  type="text/javascript"  src="js/nPlate.js"></script>`
  - Refer to usage section to use the script
-
-
 ## Usage
 
 Call script functions.
