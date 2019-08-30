@@ -32,10 +32,18 @@ var app = {
         this.receivedEvent('deviceready');
     },
 
+    //Event listener for button
     imgprocess: function() {
+        //Example: Select from gallery
         nPlate.get(0,function(plate){
             document.getElementById('plate').innerText = plate;
         });
+
+        //Example: Select raw file directly
+        /*nPlate.getRaw("file:///storage/emulated/0/Pictures/1567165316900.jpg",function(plate){
+            document.getElementById('plate').innerText = plate;
+        });*/
+        
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

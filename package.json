@@ -15,6 +15,7 @@
   "dependencies": {
     "cordova-android": "^8.0.0",
     "cordova-plugin-document-scanner": "^4.2.0",
+    "cordova-plugin-file": "^6.0.2",
     "cordova-plugin-mobile-ocr": "^3.1.1"
   },
   "devDependencies": {
@@ -24,7 +25,8 @@
     "plugins": {
       "cordova-plugin-whitelist": {},
       "cordova-plugin-mobile-ocr": {},
-      "cordova-plugin-document-scanner": {}
+      "cordova-plugin-document-scanner": {},
+      "cordova-plugin-file": {}
     },
     "platforms": [
       "android"
