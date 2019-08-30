@@ -15,6 +15,7 @@
             console.log(numberPlate);
             });
 *       
+*
 * Functions:
 *           get(int sourceType, function callback)
 *               sourceType: 0 = Gallery, 1 = Camera
